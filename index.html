@@ -5,26 +5,67 @@
 	</title>
 	<link rel="stylesheet" href="CSS/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="includes/css/bootstrap-glyphicons.css">
 </head>
 
-<body class="trail">
-	<div style="background-size: 50px; background-color: powderblue;">
-		<ul class="nav">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Products</a></li>
-			<li><a href="#">Offers</a></li>
-			<li><a href="#">Contact Us</a></li>
-			<li id="menu"><a href="#">Login</a></li>
-		</ul>
+<body class="main">
+	<div class="navbar navbar-fixed-top" style="background-color: #0FB28D;" >
+		<div class="container" ">
+			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".nav-responsive-collapse">
+    			<span class="icon-bar"></span>
+    			<span class="icon-bar"></span>
+    			<span class="icon-bar"></span>
+ 
+  			</button>
+			<a href="#" class="navbar-brand"><img src="img/canvas.png" alt="Img"></a>
+			
+			<div class="nav-collapse collapse nav-responsive-collapse">
+				<ul class=" nav navbar-nav">
+					<li class="nav-item"><a href="#">Home</a></li>
+					<li class="nav-item"><a href="#">Products</a></li>
+					<li class="nav-item disabled"><a href="#">Offers</a></li>
+					<li class="nav-item"><a href="#">Services</a></li>
+					<li class="nav-item"><a href="#">Others</a></li>
+					
+				</ul>
+				<ul class="nav navbar-nav pull-right">
+					<li class="nav-item dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My account</a>
+						<ul class="dropdown-menu" id="acc">
+							<li><a href="#">Profile</a></li>
+							<li><a href="#">Change password</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Sign Out</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 
-	<div style="margin-top: 30px; height: 200px;">
-		<fieldset style="height: 200px;">Here is the Ad section!</fieldset>
+	<div class="jumbotron jumbotron-fluid bg-dark">
+		<div style="padding:10px;">
+			<img src="img/back.jpg" alt="" style="height:100%;width:100%;">
+		</div>
+			
+		
 	</div>
+	
+
+	
+	<div class="parallax"></div>
+
+	<!--Carousel-->
+	
 
 	<div class="section">
 		<div class="part">
-			<img src="img/1.jpg" alt="1 " >
+			<!--<img src="img/1.jpg" alt="1 " >-->
 			<p>
 				<b>WHY CHOOSE US.</b><br>
 				Because we are Reliable.
@@ -32,7 +73,7 @@
 			</p>
 		</div>
 		<div class="part">
-			<img src="img/2.jpg" alt="2">
+			<!--<img src="img/2.jpg" alt="2">-->
 			<p>
 				<b>OUR MISSION.</b><br>
 				To Redefine your Brand.
@@ -40,7 +81,7 @@
 			</p>
 		</div>
 		<div class="part">
-			<img src="img/3.jpg" alt="3">
+			<!--<img src="img/3.jpg" alt="3">-->
 			<p>
 				<b>WHAT WE DO.</b><br>
 				Make our Customers Happy.
@@ -48,11 +89,12 @@
 			</p>
 		</div>
 	</div>
+	<div class="parallax2"></div>
 
 	
 
 
-	<div>
+	<div class="foot">
 		<footer>
 			<a href="#" class="fa fa-facebook"></a>
 			<a href="#" class="fa fa-twitter"></a>
@@ -61,5 +103,6 @@
 		</footer>
 	</div>
 
-	
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
