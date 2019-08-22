@@ -1,54 +1,31 @@
+.trail{
+	background-color:#8d9007;
 
-/*body{
+}
+body{
 	width:800px;
 	margin:auto;
 }
-*/
 
-.main{
-	background-color: #0F3C31;
-}
-
-.navbar{
-	background-color:#0FB28D;
-}
-
-.navbar-brand img{
-	height:50px;
-}
 .lead div{
 	background-size: 50px;
 	background-image: img/canvas.png;
-}
-
-ul{
-	padding:0;
-	magin:0;
-
-}
-
-.container{
-	display: inline;
 }
 
 .nav{
 	display: inline;
 	margin: 0;
 	padding: 0;
-	
+	background-image: img/canvas.jpg;
 }
-li{
+
+.nav li{
 	display: inline-block;
 	text-align: center;
-	
+	background-color: yellow;
 	margin=0;
-	padding: 10px;
-	padding-bottom: 0;
-	margin:0;
+	padding: 20px;
 
-}
-.foot{
-	background-color:#141615;
 }
 
 #menu{
@@ -58,10 +35,10 @@ li{
 .section{
 	display: grid;
 	grid-template-columns: auto auto auto;
-	background-color: #0FB28D;;
-	padding: 0;
+	background-color: powderblue;
+	padding: 10px;
 	
-	margin-top:0;
+	margin-top: 50px;
 	margin-left: 0;
 	margin-right:0;
 }
@@ -79,7 +56,7 @@ li{
 .part img{
 	width:150px;
 	height:100px;
-	margin-left: 20px;
+	text-align: center;
 }
 
 .fa {
@@ -114,62 +91,4 @@ li{
 .fa-linkedin {
   background: #007bb5;
   color: white;
-}
-
-.hero-image {
-  background-image:url("http://blazrobar.com/wp-content/uploads/2015/05/Free-places-to-download-stock-photos.jpg");
-  height: 60%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin-top: 0px;
-}
-
-.parallax {
-  background-image: url("https://wallpapercave.com/wp/ynD3snm.jpg");
-
-  min-height: 500px; 
-
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-.parallax2 {
-  background-image: url("https://wallpapercave.com/wp/3knP11j.jpg");
-  min-height: 500px; 
-
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-p{
-	text-align: center;
-	font-family: sans-serif;
-}
-
-.jumbotron{
-	position: relative;
-}
-
-.jumbotron-background{
-	object-fit:cover;
-	position: relative;
-	top:0px;
-	z-index:1;
-	width: 30%;
-	height: 100%;
-	opacity:0.9;
-}
-
-.container h2{
-	font-weight: bold;
-	color: black;
 }
